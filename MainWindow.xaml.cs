@@ -19,6 +19,19 @@ namespace Week_9_Final_Exam_prep_notes
         public MainWindow()
         {
             InitializeComponent();
+        }// MainWindow
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //Open up a new button from th ebutton click
+            //yuo have to create a new instance of the window
+            // then do .Show() on it
+            new New_Window()
         }
     }
 }
+
+
+
+
+

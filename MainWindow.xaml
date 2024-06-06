@@ -6,7 +6,20 @@
         xmlns:local="clr-namespace:Week_9_Final_Exam_prep_notes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FF41A2C3" RenderTransformOrigin="0.443,0.506">
+        <RichTextBox Margin="438,19,16,213" Background="#FF0AD5E4">
+          
+        </RichTextBox>
+        <Image Margin="25,26,527,190"/>
+        <Button x:Name="btnAdddNewProduct"
+            Content="Button" Margin="176,386,230,1" Click="Button_Click"/>
+        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="-1,230,10,87" Background="#FF0AD5E4">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
 
     </Grid>
 </Window>
